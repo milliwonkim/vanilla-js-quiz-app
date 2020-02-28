@@ -1,0 +1,19 @@
+{
+  "name": "vanilla-js-quiz",
+  "homepage": "https://milliwonkim.github.io/vanilla-js-quiz-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gh-pages": "^2.2.0",
+    "parcel": "^1.12.4"
+  },
+  "scripts": {
+    "predeploy": "rm -rf dist && parcel build index.html",
+    "deploy": "gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
